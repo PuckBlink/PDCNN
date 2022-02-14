@@ -20,7 +20,7 @@ if __name__ == "__main__":
     input_shape     = [512, 512]
 
     batch_size = 2
-    lr = 10e-3
+    lr = 1e-3
     start_epoch = 0
     end_epoch = 50
 
