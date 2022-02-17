@@ -56,7 +56,7 @@ def reg_l1_loss(y_pred, y_true, indices, mask):
 
 def classifier_cls_loss(y_true, y_pred):
     unweighted_losses = K.categorical_crossentropy(y_true, y_pred)
-    class_weights = tf.constant([[[1, 1, 1, 1, 1]]], dtype=tf.float32)
+    class_weights = tf.constant([[[0.36, 0.39, 0.85, 2.4, 1]]])
 
     mul = class_weights * y_true
     weights = tf.reduce_sum(mul, axis=-1)
