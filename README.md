@@ -7,7 +7,7 @@ This network is use for automatic periodontitis bone loss diagnosis,
 if more background information is needed please refer to the paper.  
     
 This code is written in python language with Keras framework. This code contains the network training part and the prediction part, 
-and the experimental model can be provided if needed.
+and the experiment model weights and datasets can be provided if needed.
 
 
 ## Implementations
