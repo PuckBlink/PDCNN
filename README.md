@@ -1,5 +1,5 @@
 # Automatic PBL Diagnosis
-Panoramic Radiograph Automatic PBL Diagnosis with Two-stage Object Detection Model
+Automated Periodontitis Bone Loss Diagnosis in Panoramic Radiographs Using a Bespoke Two-Stage Detector
 
 ## Introduction
 
