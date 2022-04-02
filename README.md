@@ -1,5 +1,6 @@
 # Automatic PBL Diagnosis
 Automated Periodontitis Bone Loss Diagnosis in Panoramic Radiographs Using a Bespoke Two-Stage Detector
+![demo](IMAGE_A.jpg.jpg)
 
 ## Introduction
 
