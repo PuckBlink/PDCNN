@@ -180,9 +180,13 @@ class Conv2dUnit(object):
         else:
             self.conv = keras.layers.Conv2D(filters, kernel_size=filter_size, strides=stride, padding=padding, use_bias=bias_attr,
                                             kernel_initializer=kernel_initializer, bias_initializer=bias_initializer, name=name+'.conv')
-
+            
+            
+        self.bn = None
+        self.gn = None
+        self.af = None
+        
         if bn:
-
             self.bn = keras.layers.BatchNormalization(name=name+'.bn', epsilon=1e-5)
         if gn:
             pass
