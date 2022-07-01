@@ -2,6 +2,19 @@
 Automated Periodontitis Bone Loss Diagnosis in Panoramic Radiographs Using a Bespoke Two-Stage Detector
 ![demo](https://github.com/PuckBlink/PDCNN/blob/master/IMAGE_A.jpg)
 
+
+## Dataset:
+All data is hosted on Google Drive:
+
+
+| Path | Size | Files | Format | Description |
+| ---- | ---  | ----  | ----   | ----------  |
+| [perio-dataset](https://drive.google.com/drive/folders/18qUxeRPHPcCQT9o8AgV5400f05Fu3ISW?usp=sharing) | ---- | ---- | | Main folder |
+| via_export_coco_BL.json | 14.3 MB | 1 | JSON | Metadata, COCO format annotations for bone loss. |
+| via_export_coco_FI.json | 14.3 MB | 1 | JSON | Metadata, COCO format annotations for furcation involvement. |
+| Images.zip | 2.72 GB | 1 | ZIP | Panoramic radiographs images at 1536x2976, ZIP archive.
+
+
 ## Introduction
 
 This network is use for automatic periodontitis bone loss diagnosis,
