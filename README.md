@@ -57,7 +57,6 @@ to ensure the script runs correctly please check the path dependencies.
 ## Reference:
 
 https://github.com/qqwweee/keras-yolo3/  
-https://github.com/pierluigiferrari/ssd_keras  
 https://github.com/jinfagang/keras_frcnn  
 https://github.com/Cartucho/mAP  
 https://github.com/bubbliiiing/centernet-keras
